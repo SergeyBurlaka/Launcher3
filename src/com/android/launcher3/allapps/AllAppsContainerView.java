@@ -216,6 +216,8 @@ public class AllAppsContainerView extends BaseContainerView implements DragSourc
 
         // Load the all apps recycler view
         mAppsRecyclerView = findViewById(R.id.apps_list_view);
+
+        //todo added aps here
         mAppsRecyclerView.setApps(mApps);
         mAppsRecyclerView.setLayoutManager(mLayoutManager);
         mAppsRecyclerView.setAdapter(mAdapter);
